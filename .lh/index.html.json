@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 27,
+            "activePatchIndex": 28,
             "patches": [
                 {
                     "date": 1739388555899,
@@ -116,6 +116,10 @@
                 {
                     "date": 1739395146467,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n             </p>\r\n             <p class=\"quote-author\">-Thor, God of Thunder</p>\r\n         </div>\r\n         <div class=\"cta\">\r\n-            <div>\r\n+            <div class=\"cta-container\">\r\n                 <div class=\"cta-text\">\r\n                     <h1>Call to action! It's time!</h1>\r\n                     <p>Sign up for our product by clicking that button right over there!</p>\r\n                 </div>\r\n"
+                },
+                {
+                    "date": 1739395614492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,6 +65,9 @@\n                 </div>\r\n                 <button>Sign up</button>\r\n             </div>\r\n         </div>\r\n+        <div class=\"footer\">\r\n+            <p>Copyright © The Odin Project 2021</p>\r\n+        </div>\r\n     </body>\r\n </html>\r\n"
                 }
             ],
             "date": 1739388555899,
