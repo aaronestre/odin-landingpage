@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 21,
+            "activePatchIndex": 23,
             "patches": [
                 {
                     "date": 1739388555899,
@@ -92,6 +92,14 @@
                 {
                     "date": 1739391419194,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,21 +39,21 @@\n         <div class=\"info\">\r\n             <h1>Some random information.</h1>\r\n             <div class=\"info-container\">\r\n                 <div class=\"info-item\">\r\n-                    <img class=\"info-image\" src=\"./pictures/placeholder.png\" alt=\"This is a placeholder for an image\" />\r\n+                    <img class=\"info-image\" src=\"./pictures/placeholder.jpg\" alt=\"This is a placeholder for an image\" />\r\n                     <p class=\"info-text\">this is some subtext under an illustration or image</p>\r\n                 </div>\r\n                 <div class=\"info-item\">\r\n-                    <img class=\"info-image\" src=\"./pictures/placeholder.png\" alt=\"This is a placeholder for an image\" />\r\n+                    <img class=\"info-image\" src=\"./pictures/placeholder.jpg\" alt=\"This is a placeholder for an image\" />\r\n                     <p class=\"info-text\">this is some subtext under an illustration or image</p>\r\n                 </div>\r\n                 <div class=\"info-item\">\r\n-                    <img class=\"info-image\" src=\"./pictures/placeholder.png\" alt=\"This is a placeholder for an image\" />\r\n+                    <img class=\"info-image\" src=\"./pictures/placeholder.jpg\" alt=\"This is a placeholder for an image\" />\r\n                     <p class=\"info-text\">this is some subtext under an illustration or image</p>\r\n                 </div>\r\n                 <div class=\"info-item\">\r\n-                    <img class=\"info-image\" src=\"./pictures/placeholder.png\" alt=\"This is a placeholder for an image\" />\r\n+                    <img class=\"info-image\" src=\"./pictures/placeholder.jpg\" alt=\"This is a placeholder for an image\" />\r\n                     <p class=\"info-text\">this is some subtext under an illustration or image</p>\r\n                 </div>\r\n             </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1739391756792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,6 +56,8 @@\n                     <p class=\"info-text\">this is some subtext under an illustration or image</p>\r\n                 </div>\r\n             </div>\r\n         </div>\r\n+        <div class=\"quote\">\r\n+        </div>\r\n     </body>\r\n </html>\r\n"
+                },
+                {
+                    "date": 1739391792160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,7 +57,11 @@\n                 </div>\r\n             </div>\r\n         </div>\r\n         <div class=\"quote\">\r\n+            <p class=\"quote-text\">\r\n+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.\r\n+            </p>\r\n+            <p class=\"quote-author\">-Thor, God of Thunder</p>\r\n         </div>\r\n     </body>\r\n </html>\r\n"
                 }
             ],
             "date": 1739388555899,
