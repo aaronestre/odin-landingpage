@@ -69,3 +69,31 @@
     justify-content: center;
     align-items: center;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h1 {
+    font-size: 36px;
+    margin: 50px 0;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.info-image {
+    width: 200px;
+}
+
+.info-text {
+    width: 200px;
+    text-align: center;
+}
