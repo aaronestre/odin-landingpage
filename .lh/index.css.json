@@ -1,0 +1,146 @@
+{
+    "sourceFile": "index.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 32,
+            "patches": [
+                {
+                    "date": 1739388822201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1739388854390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .header {\r\n-    \r\n+    background-color: #1f2937;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739388864982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n-.header {\r\n+header {\r\n     background-color: #1f2937;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739388890139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n header {\r\n     background-color: #1f2937;\r\n+    display: flex;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739388919797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n header {\r\n     background-color: #1f2937;\r\n+    font-family: Roboto;\r\n     display: flex;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739388937005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,9 @@\n header {\r\n     background-color: #1f2937;\r\n     font-family: Roboto;\r\n     display: flex;\r\n+}\r\n+\r\n+h1 {\r\n+    color: #f9faf8;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739389012359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n header {\r\n     background-color: #1f2937;\r\n+    color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1739389040035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n     font-family: Roboto;\r\n     display: flex;\r\n }\r\n \r\n-h1 {\r\n-    color: #f9faf8;\r\n+header h1 {\r\n+    font-size: 24px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739389090909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,11 @@\n }\r\n \r\n header h1 {\r\n     font-size: 24px;\r\n+}\r\n+\r\n+.header-right {\r\n+    display: flex;\r\n+    margin-left: auto;\r\n+    gap: 16px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739389111438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,7 @@\n }\r\n \r\n .header-right {\r\n     display: flex;\r\n-    margin-left: auto;\r\n+    justify-content: flex-end;\r\n     gap: 16px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739389130983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n     background-color: #1f2937;\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n+    justify-content: space-between;\r\n }\r\n \r\n header h1 {\r\n     font-size: 24px;\r\n"
+                },
+                {
+                    "date": 1739389140284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+header {\r\n+    background-color: #1f2937;\r\n+    color: white;\r\n+    font-family: Roboto;\r\n+    display: flex;\r\n+    justify-content: space-between;\r\n+}\r\n+\r\n+header h1 {\r\n+    font-size: 24px;\r\n+}\r\n+\r\n+.header-right {\r\n+    display: flex;\r\n+    justify-content: flex-end;\r\n+    gap: 16px;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739389149094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n     justify-content: space-between;\r\n+    margin: 10;\r\n }\r\n \r\n header h1 {\r\n     font-size: 24px;\r\n@@ -13,22 +14,5 @@\n .header-right {\r\n     display: flex;\r\n     justify-content: flex-end;\r\n     gap: 16px;\r\n-}\n-header {\r\n-    background-color: #1f2937;\r\n-    color: white;\r\n-    font-family: Roboto;\r\n-    display: flex;\r\n-    justify-content: space-between;\r\n-}\r\n-\r\n-header h1 {\r\n-    font-size: 24px;\r\n-}\r\n-\r\n-.header-right {\r\n-    display: flex;\r\n-    justify-content: flex-end;\r\n-    gap: 16px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739389189619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n header {\r\n     background-color: #1f2937;\r\n+    width: 100%;\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n     justify-content: space-between;\r\n"
+                },
+                {
+                    "date": 1739389255425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n header {\r\n     background-color: #1f2937;\r\n+    margin: 0;\r\n+    padding: 0;\r\n     width: 100%;\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1739389278680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n header {\r\n     background-color: #1f2937;\r\n+    top: 0;\r\n     margin: 0;\r\n     padding: 0;\r\n     width: 100%;\r\n     color: white;\r\n"
+                },
+                {
+                    "date": 1739389340338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     background-color: #1f2937;\r\n     top: 0;\r\n     margin: 0;\r\n     padding: 0;\r\n-    width: 100%;\r\n+    width: 100vw;\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n     justify-content: space-between;\r\n"
+                },
+                {
+                    "date": 1739389347422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n     background-color: #1f2937;\r\n     top: 0;\r\n     margin: 0;\r\n     padding: 0;\r\n-    width: 100vw;\r\n+    width: 100%;\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n     justify-content: space-between;\r\n"
+                },
+                {
+                    "date": 1739389356404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,8 @@\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n     justify-content: space-between;\r\n-    margin: 10;\r\n }\r\n \r\n header h1 {\r\n     font-size: 24px;\r\n"
+                },
+                {
+                    "date": 1739389366711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,6 @@\n header {\r\n     background-color: #1f2937;\r\n-    top: 0;\r\n-    margin: 0;\r\n     padding: 0;\r\n     width: 100%;\r\n     color: white;\r\n     font-family: Roboto;\r\n"
+                },
+                {
+                    "date": 1739389373453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,6 @@\n header {\r\n     background-color: #1f2937;\r\n-    padding: 0;\r\n     width: 100%;\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1739389523879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n header {\r\n     background-color: #1f2937;\r\n+    margin: 0;\r\n     width: 100%;\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1739389582227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-header {\r\n+.header {\r\n     background-color: #1f2937;\r\n     margin: 0;\r\n     width: 100%;\r\n     color: white;\r\n@@ -7,9 +7,9 @@\n     display: flex;\r\n     justify-content: space-between;\r\n }\r\n \r\n-header h1 {\r\n+.header h1 {\r\n     font-size: 24px;\r\n }\r\n \r\n .header-right {\r\n"
+                },
+                {
+                    "date": 1739389643834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .header {\r\n     background-color: #1f2937;\r\n     margin: 0;\r\n-    width: 100%;\r\n+    width: 100%; !important\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n     justify-content: space-between;\r\n"
+                },
+                {
+                    "date": 1739389652124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .header {\r\n     background-color: #1f2937;\r\n     margin: 0;\r\n-    width: 100%; !important\r\n+    width: 100% !important;\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n     justify-content: space-between;\r\n"
+                },
+                {
+                    "date": 1739389716931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .header {\r\n     background-color: #1f2937;\r\n-    margin: 0;\r\n-    width: 100% !important;\r\n+    margin: 0px;\r\n+    width: 100%;\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n     justify-content: space-between;\r\n"
+                },
+                {
+                    "date": 1739389800019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,10 @@\n+* {\r\n+    margin: 0;\r\n+    padding: 0;\r\n+    box-sizing: border-box;\r\n+}\r\n+\r\n .header {\r\n     background-color: #1f2937;\r\n     margin: 0px;\r\n     width: 100%;\r\n@@ -15,5 +21,5 @@\n .header-right {\r\n     display: flex;\r\n     justify-content: flex-end;\r\n     gap: 16px;\r\n-}\n\\ No newline at end of file\n+}\r\n"
+                },
+                {
+                    "date": 1739389818249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n     justify-content: space-between;\r\n }\r\n \r\n .header h1 {\r\n+    margin-left: 16px;\r\n     font-size: 24px;\r\n }\r\n \r\n .header-right {\r\n"
+                },
+                {
+                    "date": 1739389824641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     justify-content: space-between;\r\n }\r\n \r\n .header h1 {\r\n-    margin-left: 16px;\r\n+    margin-left: 100px;\r\n     font-size: 24px;\r\n }\r\n \r\n .header-right {\r\n"
+                },
+                {
+                    "date": 1739389840067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n     font-size: 24px;\r\n }\r\n \r\n .header-right {\r\n+    margin-right: 100px;\r\n     display: flex;\r\n     justify-content: flex-end;\r\n     gap: 16px;\r\n }\r\n"
+                },
+                {
+                    "date": 1739389855781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n     justify-content: space-between;\r\n+    align-items: center;\r\n }\r\n \r\n .header h1 {\r\n     margin-left: 100px;\r\n"
+                },
+                {
+                    "date": 1739389863273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n .header {\r\n     background-color: #1f2937;\r\n     margin: 0px;\r\n     width: 100%;\r\n+    height: 100px;\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n     justify-content: space-between;\r\n"
+                },
+                {
+                    "date": 1739389869702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n .header {\r\n     background-color: #1f2937;\r\n     margin: 0px;\r\n     width: 100%;\r\n-    height: 100px;\r\n+    height: 50px;\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n     justify-content: space-between;\r\n"
+                }
+            ],
+            "date": 1739388822201,
+            "name": "Commit-0",
+            "content": ".header {\r\n    \r\n}"
+        }
+    ]
+}

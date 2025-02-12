@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 11,
             "patches": [
                 {
                     "date": 1739388555899,
@@ -16,6 +16,42 @@
                 {
                     "date": 1739388604557,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,12 @@\n <!DOCTYPE html>\r\n <html lang=\"en\">\r\n+    <head>\r\n+        <meta charset=\"UTF-8\">\r\n+        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+        <title>Odin Landing Page</title>\r\n+    </head>\r\n+    <body>\r\n+        <h1>Odin Landing Page</h1>\r\n+    </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739388674304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n         <title>Odin Landing Page</title>\r\n     </head>\r\n     <body>\r\n-        <h1>Odin Landing Page</h1>\r\n+        <header></header>\r\n     </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739388711668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,9 @@\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n         <title>Odin Landing Page</title>\r\n     </head>\r\n     <body>\r\n-        <header></header>\r\n+        <header>\r\n+            <h1>Header Text</h1>\r\n+        </header>\r\n     </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739388743700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,10 @@\n     </head>\r\n     <body>\r\n         <header>\r\n             <h1>Header Text</h1>\r\n+            <p>header link 1</p>\r\n+            <p>header link 2</p>\r\n+            <p>header link 3</p>\r\n         </header>\r\n     </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739388835951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n     <head>\r\n         <meta charset=\"UTF-8\">\r\n         <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+        <style src=\"index.css\"></style>\r\n         <title>Odin Landing Page</title>\r\n     </head>\r\n     <body>\r\n         <header>\r\n"
+                },
+                {
+                    "date": 1739388996755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     <head>\r\n         <meta charset=\"UTF-8\">\r\n         <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n-        <style src=\"index.css\"></style>\r\n+        <link rel=\"stylesheet\" href=\"index.css\">\r\n         <title>Odin Landing Page</title>\r\n     </head>\r\n     <body>\r\n         <header>\r\n"
+                },
+                {
+                    "date": 1739389070984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,13 @@\n     </head>\r\n     <body>\r\n         <header>\r\n             <h1>Header Text</h1>\r\n-            <p>header link 1</p>\r\n-            <p>header link 2</p>\r\n-            <p>header link 3</p>\r\n+            <div class=\"header-right\">\r\n+                <p>header link 1</p>\r\n+                <p>header link 2</p>\r\n+                <p>header link 3</p>\r\n+            </div>\r\n+            \r\n         </header>\r\n     </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739389442561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,23 @@\n <!DOCTYPE html>\r\n <html lang=\"en\">\r\n     <head>\r\n-        <meta charset=\"UTF-8\">\r\n-        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n-        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n-        <link rel=\"stylesheet\" href=\"index.css\">\r\n+        <meta charset=\"UTF-8\" />\r\n+        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n+        <link rel=\"stylesheet\" href=\"index.css\" />\r\n+        <link\r\n+            href=\"http://fonts.googleapis.com/css?family=Roboto\"\r\n+            rel=\"stylesheet\"\r\n+            type=\"text/css\"\r\n+        />\r\n+        <!-- use the font -->\r\n+        <style>\r\n+            body {\r\n+                font-family: \"Roboto\", sans-serif;\r\n+                font-size: 48px;\r\n+            }\r\n+        </style>\r\n         <title>Odin Landing Page</title>\r\n     </head>\r\n     <body>\r\n         <header>\r\n@@ -14,8 +26,7 @@\n                 <p>header link 1</p>\r\n                 <p>header link 2</p>\r\n                 <p>header link 3</p>\r\n             </div>\r\n-            \r\n         </header>\r\n     </body>\r\n-</html>\n\\ No newline at end of file\n+</html>\r\n"
+                },
+                {
+                    "date": 1739389453876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,13 +9,11 @@\n             href=\"http://fonts.googleapis.com/css?family=Roboto\"\r\n             rel=\"stylesheet\"\r\n             type=\"text/css\"\r\n         />\r\n-        <!-- use the font -->\r\n         <style>\r\n             body {\r\n                 font-family: \"Roboto\", sans-serif;\r\n-                font-size: 48px;\r\n             }\r\n         </style>\r\n         <title>Odin Landing Page</title>\r\n     </head>\r\n"
+                },
+                {
+                    "date": 1739389560805,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,14 +17,14 @@\n         </style>\r\n         <title>Odin Landing Page</title>\r\n     </head>\r\n     <body>\r\n-        <header>\r\n+        <div class=\"header\">\r\n             <h1>Header Text</h1>\r\n             <div class=\"header-right\">\r\n                 <p>header link 1</p>\r\n                 <p>header link 2</p>\r\n                 <p>header link 3</p>\r\n             </div>\r\n-        </header>\r\n+        </div>\r\n     </body>\r\n </html>\r\n"
                 }
             ],
             "date": 1739388555899,
