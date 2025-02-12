@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 19,
             "patches": [
                 {
                     "date": 1739388555899,
@@ -52,6 +52,38 @@
                 {
                     "date": 1739389560805,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,14 +17,14 @@\n         </style>\r\n         <title>Odin Landing Page</title>\r\n     </head>\r\n     <body>\r\n-        <header>\r\n+        <div class=\"header\">\r\n             <h1>Header Text</h1>\r\n             <div class=\"header-right\">\r\n                 <p>header link 1</p>\r\n                 <p>header link 2</p>\r\n                 <p>header link 3</p>\r\n             </div>\r\n-        </header>\r\n+        </div>\r\n     </body>\r\n </html>\r\n"
+                },
+                {
+                    "date": 1739390053180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,6 +25,9 @@\n                 <p>header link 2</p>\r\n                 <p>header link 3</p>\r\n             </div>\r\n         </div>\r\n+        <div class=\"hero\">\r\n+\r\n+        </div>\r\n     </body>\r\n </html>\r\n"
+                },
+                {
+                    "date": 1739390074600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,11 @@\n                 <p>header link 3</p>\r\n             </div>\r\n         </div>\r\n         <div class=\"hero\">\r\n-\r\n+            <div class=\"hero-left\">\r\n+            </div>\r\n+            <div class=\"hero-right\">\r\n+            </div>\r\n         </div>\r\n     </body>\r\n </html>\r\n"
+                },
+                {
+                    "date": 1739390086332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,9 @@\n             </div>\r\n         </div>\r\n         <div class=\"hero\">\r\n             <div class=\"hero-left\">\r\n+                <h1>This website is awesome</h1>\r\n             </div>\r\n             <div class=\"hero-right\">\r\n             </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1739390099073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,9 @@\n         </div>\r\n         <div class=\"hero\">\r\n             <div class=\"hero-left\">\r\n                 <h1>This website is awesome</h1>\r\n+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>\r\n             </div>\r\n             <div class=\"hero-right\">\r\n             </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1739390108636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n         <div class=\"hero\">\r\n             <div class=\"hero-left\">\r\n                 <h1>This website is awesome</h1>\r\n                 <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>\r\n+                <button>Sign up</button>\r\n             </div>\r\n             <div class=\"hero-right\">\r\n             </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1739390165709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,9 @@\n                 <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>\r\n                 <button>Sign up</button>\r\n             </div>\r\n             <div class=\"hero-right\">\r\n+                <img src=\"./pictures/hero-image.jpg\" alt=\"This is a placeholder for an image\" />\r\n             </div>\r\n         </div>\r\n     </body>\r\n </html>\r\n"
+                },
+                {
+                    "date": 1739390252633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n                 <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>\r\n                 <button>Sign up</button>\r\n             </div>\r\n             <div class=\"hero-right\">\r\n-                <img src=\"./pictures/hero-image.jpg\" alt=\"This is a placeholder for an image\" />\r\n+                <img class=\"hero-image\" src=\"./pictures/hero-image.jpg\" alt=\"This is a placeholder for an image\" />\r\n             </div>\r\n         </div>\r\n     </body>\r\n </html>\r\n"
+                },
+                {
+                    "date": 1739390945069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         <title>Odin Landing Page</title>\r\n     </head>\r\n     <body>\r\n         <div class=\"header\">\r\n-            <h1>Header Text</h1>\r\n+            <h1>Header Logo</h1>\r\n             <div class=\"header-right\">\r\n                 <p>header link 1</p>\r\n                 <p>header link 2</p>\r\n                 <p>header link 3</p>\r\n"
                 }
             ],
             "date": 1739388555899,

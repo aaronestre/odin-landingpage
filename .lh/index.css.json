@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 32,
+            "activePatchIndex": 79,
             "patches": [
                 {
                     "date": 1739388822201,
@@ -136,6 +136,194 @@
                 {
                     "date": 1739389869702,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n .header {\r\n     background-color: #1f2937;\r\n     margin: 0px;\r\n     width: 100%;\r\n-    height: 100px;\r\n+    height: 50px;\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n     justify-content: space-between;\r\n"
+                },
+                {
+                    "date": 1739390268149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,4 +26,12 @@\n     display: flex;\r\n     justify-content: flex-end;\r\n     gap: 16px;\r\n }\r\n+\r\n+.hero-image {\r\n+    background-color: #1f2937;\r\n+    width: 100%;\r\n+    height: 400px;\r\n+    display: flex;\r\n+    justify-content: center;\r\n+    align-items: center;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739390277515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,5 +33,6 @@\n     width: 100%;\r\n     height: 400px;\r\n     display: flex;\r\n     justify-content: center;\r\n-    align-items: center;\n\\ No newline at end of file\n+    align-items: center;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739390294704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,10 +29,10 @@\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n-    width: 100%;\r\n-    height: 400px;\r\n+    width: 30%;\r\n+    height: 100;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739390303252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n-    width: 30%;\r\n+    width: 50%;\r\n     height: 100;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1739390320019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,10 +29,10 @@\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n-    width: 50%;\r\n-    height: 100;\r\n+    width: 40%;\r\n+    height: 200px;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739390486570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,17 @@\n     justify-content: flex-end;\r\n     gap: 16px;\r\n }\r\n \r\n+.hero {\r\n+    background-color: #1f2937;\r\n+    width: 100%;\r\n+    height: 400px;\r\n+    display: flex;\r\n+    justify-content: space-between;\r\n+    align-items: center;\r\n+}\r\n+\r\n .hero-image {\r\n     background-color: #1f2937;\r\n     width: 40%;\r\n     height: 200px;\r\n"
+                },
+                {
+                    "date": 1739390499776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,9 @@\n }\r\n \r\n .hero {\r\n     background-color: #1f2937;\r\n+    color: white;\r\n     width: 100%;\r\n     height: 400px;\r\n     display: flex;\r\n     justify-content: space-between;\r\n"
+                },
+                {
+                    "date": 1739390515192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,10 +33,8 @@\n     color: white;\r\n     width: 100%;\r\n     height: 400px;\r\n     display: flex;\r\n-    justify-content: space-between;\r\n-    align-items: center;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390523633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,8 @@\n \r\n .hero {\r\n     background-color: #1f2937;\r\n     color: white;\r\n-    width: 100%;\r\n-    height: 400px;\r\n     display: flex;\r\n }\r\n \r\n .hero-image {\r\n"
+                },
+                {
+                    "date": 1739390596559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,12 @@\n \r\n .hero {\r\n     background-color: #1f2937;\r\n     color: white;\r\n+    width: 100%;\r\n+    height: 300px;\r\n     display: flex;\r\n+    justify-content: center;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390622339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n     color: white;\r\n     width: 100%;\r\n     height: 300px;\r\n     display: flex;\r\n-    justify-content: center;\r\n+    justify-content: space-between;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390640561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     align-items: center;\r\n }\r\n \r\n .header h1 {\r\n-    margin-left: 100px;\r\n+    margin-left: 300px;\r\n     font-size: 24px;\r\n }\r\n \r\n .header-right {\r\n"
+                },
+                {
+                    "date": 1739390672904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,19 +11,17 @@\n     height: 50px;\r\n     color: white;\r\n     font-family: Roboto;\r\n     display: flex;\r\n-    justify-content: space-between;\r\n+    justify-content: space-around;\r\n     align-items: center;\r\n }\r\n \r\n .header h1 {\r\n-    margin-left: 300px;\r\n     font-size: 24px;\r\n }\r\n \r\n .header-right {\r\n-    margin-right: 100px;\r\n     display: flex;\r\n     justify-content: flex-end;\r\n     gap: 16px;\r\n }\r\n"
+                },
+                {
+                    "date": 1739390681508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n     color: white;\r\n     width: 100%;\r\n     height: 300px;\r\n     display: flex;\r\n-    justify-content: space-between;\r\n+    justify-content: space-around;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390704041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,9 @@\n     width: 100%;\r\n     height: 300px;\r\n     display: flex;\r\n     justify-content: space-around;\r\n+    align-items: center;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390738080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,8 +35,12 @@\n     justify-content: space-around;\r\n     align-items: center;\r\n }\r\n \r\n+.hero-left {\r\n+    margin-left: 100px;\r\n+}\r\n+\r\n .hero-image {\r\n     background-color: #1f2937;\r\n     width: 40%;\r\n     height: 200px;\r\n"
+                },
+                {
+                    "date": 1739390743737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 100px;\r\n+    margin-left: 200px;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390751232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 200px;\r\n+    margin-left: 250px;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390757784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 250px;\r\n+    margin-left: 210px;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390764305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 210px;\r\n+    margin-left: 200px;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390771918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 200px;\r\n+    margin-left: 210px;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390779375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 210px;\r\n+    margin-left: 225px;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390788643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 225px;\r\n+    margin-left: 228px;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390806356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,10 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 228px;\r\n+    margin-left: 225px;\r\n+    width: 40%;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390820387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,10 +36,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 225px;\r\n-    width: 40%;\r\n+    width: 20%;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739390828722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n+    margin-left: 200px;\r\n     width: 20%;\r\n }\r\n \r\n .hero-image {\r\n"
+                },
+                {
+                    "date": 1739390834279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 200px;\r\n+    margin-left: 10px;\r\n     width: 20%;\r\n }\r\n \r\n .hero-image {\r\n"
+                },
+                {
+                    "date": 1739390839414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 10px;\r\n+    margin-left: 75px;\r\n     width: 20%;\r\n }\r\n \r\n .hero-image {\r\n"
+                },
+                {
+                    "date": 1739390872711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     align-items: center;\r\n }\r\n \r\n .header h1 {\r\n-    font-size: 24px;\r\n+    font-size: 48px;\r\n }\r\n \r\n .header-right {\r\n     display: flex;\r\n@@ -36,9 +36,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 75px;\r\n+    margin-left: 85px;\r\n     width: 20%;\r\n }\r\n \r\n .hero-image {\r\n"
+                },
+                {
+                    "date": 1739390895942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,9 @@\n \r\n .header-right {\r\n     display: flex;\r\n     justify-content: flex-end;\r\n+    font-size: 24px;\r\n     gap: 16px;\r\n }\r\n \r\n .hero {\r\n"
+                },
+                {
+                    "date": 1739390909942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     align-items: center;\r\n }\r\n \r\n .header h1 {\r\n-    font-size: 48px;\r\n+    font-size: 32px;\r\n }\r\n \r\n .header-right {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1739390980248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n \r\n .header-right {\r\n     display: flex;\r\n     justify-content: flex-end;\r\n-    font-size: 24px;\r\n+    font-size: 18px;\r\n     gap: 16px;\r\n }\r\n \r\n .hero {\r\n@@ -41,8 +41,12 @@\n     margin-left: 85px;\r\n     width: 20%;\r\n }\r\n \r\n+.hero h1 {\r\n+    font-size: 48px;\r\n+}\r\n+\r\n .hero-image {\r\n     background-color: #1f2937;\r\n     width: 40%;\r\n     height: 200px;\r\n"
+                },
+                {
+                    "date": 1739391006940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,9 @@\n \r\n .hero-left {\r\n     margin-left: 85px;\r\n     width: 20%;\r\n+    margin: 10px;\r\n }\r\n \r\n .hero h1 {\r\n     font-size: 48px;\r\n"
+                },
+                {
+                    "date": 1739391015924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,8 @@\n \r\n .hero-left {\r\n     margin-left: 85px;\r\n     width: 20%;\r\n-    margin: 10px;\r\n }\r\n \r\n .hero h1 {\r\n     font-size: 48px;\r\n"
+                },
+                {
+                    "date": 1739391034883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,8 +43,9 @@\n }\r\n \r\n .hero h1 {\r\n     font-size: 48px;\r\n+    margin-bottom: 10px;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739391047196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,8 +46,13 @@\n     font-size: 48px;\r\n     margin-bottom: 10px;\r\n }\r\n \r\n+.hero p {\r\n+    font-size: 18px;\r\n+    margin-bottom: 10px;\r\n+}\r\n+\r\n .hero-image {\r\n     background-color: #1f2937;\r\n     width: 40%;\r\n     height: 200px;\r\n"
+                },
+                {
+                    "date": 1739391072646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,8 +51,17 @@\n     font-size: 18px;\r\n     margin-bottom: 10px;\r\n }\r\n \r\n+.hero button {\r\n+    background-color: #3882f6;\r\n+    color: white;\r\n+    width: 100px;\r\n+    height: 30px;\r\n+    border-radius: 10px;\r\n+    border: none;\r\n+}\r\n+\r\n .hero-image {\r\n     background-color: #1f2937;\r\n     width: 40%;\r\n     height: 200px;\r\n"
+                },
+                {
+                    "date": 1739391085454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,8 @@\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n-    width: 40%;\r\n     height: 200px;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1739391093062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,8 +62,9 @@\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n+    margin-right: 85px;\r\n     height: 200px;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1739391111352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n .hero {\r\n     background-color: #1f2937;\r\n     color: white;\r\n     width: 100%;\r\n-    height: 300px;\r\n+    height: 400px;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     align-items: center;\r\n }\r\n"
+                },
+                {
+                    "date": 1739391120739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n .hero {\r\n     background-color: #1f2937;\r\n     color: white;\r\n     width: 100%;\r\n-    height: 400px;\r\n+    height: 500px;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     align-items: center;\r\n }\r\n@@ -63,9 +63,9 @@\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n     margin-right: 85px;\r\n-    height: 200px;\r\n+    height: 400px;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391127858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n     margin-right: 85px;\r\n-    height: 400px;\r\n+    height: 500px;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391141495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 85px;\r\n+    margin-left: 100px;\r\n     width: 20%;\r\n }\r\n \r\n .hero h1 {\r\n@@ -63,9 +63,9 @@\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n     margin-right: 85px;\r\n-    height: 500px;\r\n+    height: 400px;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391148320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 100px;\r\n+    margin-left: 200px;\r\n     width: 20%;\r\n }\r\n \r\n .hero h1 {\r\n"
+                },
+                {
+                    "date": 1739391160162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n     align-items: center;\r\n }\r\n \r\n .hero-left {\r\n-    margin-left: 200px;\r\n+    margin-left: 175px;\r\n     width: 20%;\r\n }\r\n \r\n .hero h1 {\r\n@@ -62,9 +62,9 @@\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n-    margin-right: 85px;\r\n+    margin-right: 175px;\r\n     height: 400px;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1739391169326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n     margin-right: 175px;\r\n-    height: 400px;\r\n+    height: 350;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391197057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,17 +55,17 @@\n .hero button {\r\n     background-color: #3882f6;\r\n     color: white;\r\n     width: 100px;\r\n-    height: 30px;\r\n+    height: 40px;\r\n     border-radius: 10px;\r\n     border: none;\r\n }\r\n \r\n .hero-image {\r\n     background-color: #1f2937;\r\n     margin-right: 175px;\r\n-    height: 350;\r\n+    height: 350px;\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1739388822201,
