@@ -157,3 +157,12 @@
     border-radius: 10px;
     border: 2px solid #fff;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
