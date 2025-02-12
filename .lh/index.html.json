@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 23,
+            "activePatchIndex": 24,
             "patches": [
                 {
                     "date": 1739388555899,
@@ -100,6 +100,10 @@
                 {
                     "date": 1739391792160,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,7 +57,11 @@\n                 </div>\r\n             </div>\r\n         </div>\r\n         <div class=\"quote\">\r\n+            <p class=\"quote-text\">\r\n+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.\r\n+            </p>\r\n+            <p class=\"quote-author\">-Thor, God of Thunder</p>\r\n         </div>\r\n     </body>\r\n </html>\r\n"
+                },
+                {
+                    "date": 1739392347411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,18 +4,12 @@\n         <meta charset=\"UTF-8\" />\r\n         <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n         <link rel=\"stylesheet\" href=\"index.css\" />\r\n-        <link\r\n-            href=\"http://fonts.googleapis.com/css?family=Roboto\"\r\n-            rel=\"stylesheet\"\r\n-            type=\"text/css\"\r\n-        />\r\n-        <style>\r\n-            body {\r\n-                font-family: \"Roboto\", sans-serif;\r\n-            }\r\n-        </style>\r\n+        <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n+<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n+<link href=\"https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap\" rel=\"stylesheet\">\r\n+\r\n         <title>Odin Landing Page</title>\r\n     </head>\r\n     <body>\r\n         <div class=\"header\">\r\n"
                 }
             ],
             "date": 1739388555899,

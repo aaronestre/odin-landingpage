@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 89,
+            "activePatchIndex": 120,
             "patches": [
                 {
                     "date": 1739388822201,
@@ -364,6 +364,130 @@
                 {
                     "date": 1739391662703,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -85,9 +85,9 @@\n .info-container {\r\n     display: flex;\r\n     justify-content: center;\r\n     align-items: center;\r\n-    gap: 50px;\r\n+    gap: 75px;\r\n }\r\n \r\n .info-image {\r\n     width: 200px;\r\n"
+                },
+                {
+                    "date": 1739391830125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,5 +95,16 @@\n \r\n .info-text {\r\n     width: 200px;\r\n     text-align: center;\r\n-}\n\\ No newline at end of file\n+}\r\n+\r\n+.quote {\r\n+    background-color: #e5e7eb;\r\n+    display: flex;\r\n+    flex-direction: column;\r\n+    justify-content: center;\r\n+    align-items: center;\r\n+    font-size: 36px;\r\n+    font-style: italic;\r\n+    font-weight: 100;\r\n+    color: #1f2937;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391848745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,7 +104,7 @@\n     flex-direction: column;\r\n     justify-content: center;\r\n     align-items: center;\r\n     font-size: 36px;\r\n-    font-style: italic;\r\n-    font-weight: 100;\r\n-    color: #1f2937;\n\\ No newline at end of file\n+    color: #1f2937;\r\n+    height: 400px;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391866629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -106,5 +106,10 @@\n     align-items: center;\r\n     font-size: 36px;\r\n     color: #1f2937;\r\n     height: 400px;\r\n+}\r\n+\r\n+.quote-text {\r\n+    font-style: italic;\r\n+    margin-bottom: 20px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391872001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,5 +111,6 @@\n \r\n .quote-text {\r\n     font-style: italic;\r\n     margin-bottom: 20px;\r\n+    text-align: center;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391889790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,5 +112,6 @@\n .quote-text {\r\n     font-style: italic;\r\n     margin-bottom: 20px;\r\n     text-align: center;\r\n+    width: 800px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391899551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,7 +111,6 @@\n \r\n .quote-text {\r\n     font-style: italic;\r\n     margin-bottom: 20px;\r\n-    text-align: center;\r\n     width: 800px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391906011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,6 +111,6 @@\n \r\n .quote-text {\r\n     font-style: italic;\r\n     margin-bottom: 20px;\r\n-    width: 800px;\r\n+    width: 900px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391927957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,8 +74,9 @@\n     display: flex;\r\n     flex-direction: column;\r\n     justify-content: center;\r\n     align-items: center;\r\n+    margin-bottom: 50px;\r\n }\r\n \r\n .info h1 {\r\n     font-size: 36px;\r\n"
+                },
+                {
+                    "date": 1739391941007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -113,5 +113,11 @@\n .quote-text {\r\n     font-style: italic;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n+}\r\n+\r\n+.quote-author {\r\n+    font-weight: bold;\r\n+    width: 900px;\r\n+    text-align: right;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391951120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,7 +117,6 @@\n }\r\n \r\n .quote-author {\r\n     font-weight: bold;\r\n-    width: 900px;\r\n     text-align: right;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391965374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,12 +111,13 @@\n }\r\n \r\n .quote-text {\r\n     font-style: italic;\r\n+    font-weight: 100;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n \r\n .quote-author {\r\n     font-weight: bold;\r\n-    text-align: right;\r\n+    \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739391974902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n }\r\n \r\n .quote-text {\r\n     font-style: italic;\r\n-    font-weight: 100;\r\n+    font-weight: 50;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1739391987201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,9 @@\n     height: 400px;\r\n }\r\n \r\n .quote-text {\r\n-    font-style: italic;\r\n+    font-style: light-italic;\r\n     font-weight: 50;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n"
+                },
+                {
+                    "date": 1739391993380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,9 @@\n     height: 400px;\r\n }\r\n \r\n .quote-text {\r\n-    font-style: light-italic;\r\n+    font-style: light italic;\r\n     font-weight: 50;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n"
+                },
+                {
+                    "date": 1739392000423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,9 +110,9 @@\n     height: 400px;\r\n }\r\n \r\n .quote-text {\r\n-    font-style: light italic;\r\n+    font-style: italic;\r\n     font-weight: 50;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n"
+                },
+                {
+                    "date": 1739392038773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n }\r\n \r\n .quote-text {\r\n     font-style: italic;\r\n-    font-weight: 50;\r\n+    font-weight: 36;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1739392101775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n }\r\n \r\n .quote-text {\r\n     font-style: italic;\r\n-    font-weight: 36;\r\n+    font-weight: lighter;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1739392121607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n }\r\n \r\n .quote-text {\r\n     font-style: italic;\r\n-    font-weight: lighter;\r\n+    font-weight: 100;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1739392129283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n }\r\n \r\n .quote-text {\r\n     font-style: italic;\r\n-    font-weight: 100;\r\n+    font-weight: 10;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1739392143384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,9 +111,9 @@\n }\r\n \r\n .quote-text {\r\n     font-style: italic;\r\n-    font-weight: 10;\r\n+    font-weight: 1;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1739392204209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -118,6 +118,6 @@\n }\r\n \r\n .quote-author {\r\n     font-weight: bold;\r\n-    \r\n+    text-align: right;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739392211305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -118,6 +118,6 @@\n }\r\n \r\n .quote-author {\r\n     font-weight: bold;\r\n-    text-align: right;\r\n+    \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739392217370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -118,6 +118,6 @@\n }\r\n \r\n .quote-author {\r\n     font-weight: bold;\r\n-    \r\n+    align-self: flex-end;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739392238176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -119,5 +119,6 @@\n \r\n .quote-author {\r\n     font-weight: bold;\r\n     align-self: flex-end;\r\n+    margin-right: 100px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739392244469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -119,6 +119,6 @@\n \r\n .quote-author {\r\n     font-weight: bold;\r\n     align-self: flex-end;\r\n-    margin-right: 100px;\r\n+    margin-right: 400px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739392250994,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -119,6 +119,6 @@\n \r\n .quote-author {\r\n     font-weight: bold;\r\n     align-self: flex-end;\r\n-    margin-right: 400px;\r\n+    margin-right: 500px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739392268856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -118,7 +118,8 @@\n }\r\n \r\n .quote-author {\r\n     font-weight: bold;\r\n+    font-size: 20px;\r\n     align-self: flex-end;\r\n     margin-right: 500px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739392284134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -120,6 +120,6 @@\n .quote-author {\r\n     font-weight: bold;\r\n     font-size: 20px;\r\n     align-self: flex-end;\r\n-    margin-right: 500px;\r\n+    margin-right: 600px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739392370420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n * {\r\n     margin: 0;\r\n     padding: 0;\r\n     box-sizing: border-box;\r\n+    font-family: Roboto;\r\n }\r\n \r\n .header {\r\n     background-color: #1f2937;\r\n"
+                },
+                {
+                    "date": 1739392406996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,9 +112,9 @@\n }\r\n \r\n .quote-text {\r\n     font-style: italic;\r\n-    font-weight: 1;\r\n+    font-weight: 100;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1739392412163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,9 +112,9 @@\n }\r\n \r\n .quote-text {\r\n     font-style: italic;\r\n-    font-weight: 100;\r\n+    font-weight: 300;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n \r\n"
                 }
             ],
             "date": 1739388822201,
