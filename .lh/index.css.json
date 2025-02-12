@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 120,
+            "activePatchIndex": 139,
             "patches": [
                 {
                     "date": 1739388822201,
@@ -488,6 +488,82 @@
                 {
                     "date": 1739392412163,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,9 +112,9 @@\n }\r\n \r\n .quote-text {\r\n     font-style: italic;\r\n-    font-weight: 100;\r\n+    font-weight: 300;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1739395168407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,9 +112,9 @@\n }\r\n \r\n .quote-text {\r\n     font-style: italic;\r\n-    font-weight: 300;\r\n+    font-weight: 200;\r\n     margin-bottom: 20px;\r\n     width: 900px;\r\n }\r\n \r\n@@ -122,5 +122,9 @@\n     font-weight: bold;\r\n     font-size: 20px;\r\n     align-self: flex-end;\r\n     margin-right: 600px;\r\n-}\n\\ No newline at end of file\n+}\r\n+\r\n+.cta-container {\r\n+    background-color: #3882f6;\r\n+}\r\n"
+                },
+                {
+                    "date": 1739395367928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,8 +123,10 @@\n     font-size: 20px;\r\n     align-self: flex-end;\r\n     margin-right: 600px;\r\n }\r\n-\r\n+.cta {\r\n+    color: #000;\r\n+}\r\n .cta-container {\r\n     background-color: #3882f6;\r\n }\r\n"
+                },
+                {
+                    "date": 1739395378218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,10 +123,12 @@\n     font-size: 20px;\r\n     align-self: flex-end;\r\n     margin-right: 600px;\r\n }\r\n+\r\n .cta {\r\n-    color: #000;\r\n+    color: #fff;\r\n }\r\n+\r\n .cta-container {\r\n     background-color: #3882f6;\r\n }\r\n"
+                },
+                {
+                    "date": 1739395385776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,5 +130,6 @@\n }\r\n \r\n .cta-container {\r\n     background-color: #3882f6;\r\n+    display: flex;\r\n }\r\n"
+                },
+                {
+                    "date": 1739395420590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,5 +131,6 @@\n \r\n .cta-container {\r\n     background-color: #3882f6;\r\n     display: flex;\r\n+    border-radius: 10px;\r\n }\r\n"
+                },
+                {
+                    "date": 1739395428613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,6 +131,7 @@\n \r\n .cta-container {\r\n     background-color: #3882f6;\r\n     display: flex;\r\n+    width: 800px;\r\n     border-radius: 10px;\r\n }\r\n"
+                },
+                {
+                    "date": 1739395440146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,8 +126,9 @@\n }\r\n \r\n .cta {\r\n     color: #fff;\r\n+    margin: 0 auto;\r\n }\r\n \r\n .cta-container {\r\n     background-color: #3882f6;\r\n"
+                },
+                {
+                    "date": 1739395448168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,8 +126,9 @@\n }\r\n \r\n .cta {\r\n     color: #fff;\r\n+    width: 100%;\r\n     margin: 0 auto;\r\n }\r\n \r\n .cta-container {\r\n"
+                },
+                {
+                    "date": 1739395454102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,10 +126,9 @@\n }\r\n \r\n .cta {\r\n     color: #fff;\r\n-    width: 100%;\r\n-    margin: 0 auto;\r\n+    display: flex;\r\n }\r\n \r\n .cta-container {\r\n     background-color: #3882f6;\r\n"
+                },
+                {
+                    "date": 1739395459680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,8 +127,9 @@\n \r\n .cta {\r\n     color: #fff;\r\n     display: flex;\r\n+    justify-content: center;\r\n }\r\n \r\n .cta-container {\r\n     background-color: #3882f6;\r\n"
+                },
+                {
+                    "date": 1739395468655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -128,8 +128,9 @@\n .cta {\r\n     color: #fff;\r\n     display: flex;\r\n     justify-content: center;\r\n+    margin: 50px;\r\n }\r\n \r\n .cta-container {\r\n     background-color: #3882f6;\r\n"
+                },
+                {
+                    "date": 1739395478189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,7 +134,8 @@\n \r\n .cta-container {\r\n     background-color: #3882f6;\r\n     display: flex;\r\n+    height: 150px;\r\n     width: 800px;\r\n     border-radius: 10px;\r\n }\r\n"
+                },
+                {
+                    "date": 1739395490785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -138,4 +138,11 @@\n     height: 150px;\r\n     width: 800px;\r\n     border-radius: 10px;\r\n }\r\n+\r\n+.cta-text {\r\n+    display: flex;\r\n+    flex-direction: column;\r\n+    justify-content: center;\r\n+    margin-left: 50px;\r\n+}\r\n"
+                },
+                {
+                    "date": 1739395508009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -135,9 +135,9 @@\n .cta-container {\r\n     background-color: #3882f6;\r\n     display: flex;\r\n     height: 150px;\r\n-    width: 800px;\r\n+    width: 1000px;\r\n     border-radius: 10px;\r\n }\r\n \r\n .cta-text {\r\n"
+                },
+                {
+                    "date": 1739395525306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,8 +137,9 @@\n     display: flex;\r\n     height: 150px;\r\n     width: 1000px;\r\n     border-radius: 10px;\r\n+    justify-content: space-around;\r\n }\r\n \r\n .cta-text {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1739395543658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,4 +146,13 @@\n     flex-direction: column;\r\n     justify-content: center;\r\n     margin-left: 50px;\r\n }\r\n+\r\n+.cta button {\r\n+    background-color: #3882f6;\r\n+    color: #fff;\r\n+    width: 100px;\r\n+    height: 40px;\r\n+    border-radius: 10px;\r\n+    border: none;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739395550427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -153,6 +153,6 @@\n     color: #fff;\r\n     width: 100px;\r\n     height: 40px;\r\n     border-radius: 10px;\r\n-    border: none;\r\n+    border: 2px solid #fff;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1739395560672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -138,8 +138,9 @@\n     height: 150px;\r\n     width: 1000px;\r\n     border-radius: 10px;\r\n     justify-content: space-around;\r\n+    align-items: center;\r\n }\r\n \r\n .cta-text {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1739395574616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -151,9 +151,9 @@\n \r\n .cta button {\r\n     background-color: #3882f6;\r\n     color: #fff;\r\n-    width: 100px;\r\n-    height: 40px;\r\n+    width: 200px;\r\n+    height: 50px;\r\n     border-radius: 10px;\r\n     border: 2px solid #fff;\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1739388822201,

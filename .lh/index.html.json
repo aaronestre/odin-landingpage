@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 25,
+            "activePatchIndex": 27,
             "patches": [
                 {
                     "date": 1739388555899,
@@ -108,6 +108,14 @@
                 {
                     "date": 1739392455692,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,6 +56,13 @@\n                 This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.\r\n             </p>\r\n             <p class=\"quote-author\">-Thor, God of Thunder</p>\r\n         </div>\r\n+        <div class=\"cta\">\r\n+            <div class=\"cta-text\">\r\n+                <h1>Call to action! It's time!</h1>\r\n+                <p>Sign up for our product by clicking that button right over there!</p>\r\n+            </div>\r\n+            <button>Sign up</button>\r\n+        </div>\r\n     </body>\r\n </html>\r\n"
+                },
+                {
+                    "date": 1739395136132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,12 +57,14 @@\n             </p>\r\n             <p class=\"quote-author\">-Thor, God of Thunder</p>\r\n         </div>\r\n         <div class=\"cta\">\r\n-            <div class=\"cta-text\">\r\n-                <h1>Call to action! It's time!</h1>\r\n-                <p>Sign up for our product by clicking that button right over there!</p>\r\n+            <div>\r\n+                <div class=\"cta-text\">\r\n+                    <h1>Call to action! It's time!</h1>\r\n+                    <p>Sign up for our product by clicking that button right over there!</p>\r\n+                </div>\r\n+                <button>Sign up</button>\r\n             </div>\r\n-            <button>Sign up</button>\r\n         </div>\r\n     </body>\r\n </html>\r\n"
+                },
+                {
+                    "date": 1739395146467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n             </p>\r\n             <p class=\"quote-author\">-Thor, God of Thunder</p>\r\n         </div>\r\n         <div class=\"cta\">\r\n-            <div>\r\n+            <div class=\"cta-container\">\r\n                 <div class=\"cta-text\">\r\n                     <h1>Call to action! It's time!</h1>\r\n                     <p>Sign up for our product by clicking that button right over there!</p>\r\n                 </div>\r\n"
                 }
             ],
             "date": 1739388555899,
